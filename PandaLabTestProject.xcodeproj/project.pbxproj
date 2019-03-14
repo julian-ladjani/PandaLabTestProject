@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6548375B885F5F65C66F223F /* Pods_PandaLabTestProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */; };
+		6EE828B2FBBA13477307E7D6 /* Pods_PandaLabTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */; };
+		A2B7B7EC223A9799008A134C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B7EB223A9799008A134C /* AppDelegate.swift */; };
+		A2B7B7EE223A9799008A134C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B7ED223A9799008A134C /* ViewController.swift */; };
+		A2B7B7F1223A9799008A134C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7EF223A9799008A134C /* Main.storyboard */; };
+		A2B7B7F3223A979A008A134C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7F2223A979A008A134C /* Assets.xcassets */; };
+		A2B7B7F6223A979A008A134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */; };
+		A2B7B801223A979A008A134C /* PandaLabTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */; };
+		A2B7B80C223A979A008A134C /* PandaLabTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */; };
+		A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B81E223AA071008A134C /* pandalab.jpg */; };
+		E8EE72C330AD97ECDD516C49 /* Pods_PandaLabTestProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616B3C7ED5A341395B1DDF35 /* Pods_PandaLabTestProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B7B7FD223A979A008A134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B7B7E0223A9799008A134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B7B7E7223A9799008A134C;
+			remoteInfo = PandaLabTestProject;
+		};
+		A2B7B808223A979A008A134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B7B7E0223A9799008A134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B7B7E7223A9799008A134C;
+			remoteInfo = PandaLabTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF18416829EEDD1FE6FDA43 /* Pods-PandaLabTestProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProjectTests/Pods-PandaLabTestProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		49CB80846075A99CDA525DFE /* Pods-PandaLabTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProject.debug.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		506D5A7A062A17557B6CD4FC /* Pods-PandaLabTestProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProjectUITests/Pods-PandaLabTestProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		616B3C7ED5A341395B1DDF35 /* Pods_PandaLabTestProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7074499B164431E9DC9576C7 /* Pods-PandaLabTestProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProjectTests/Pods-PandaLabTestProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A92EE9B07A2F4FDD9D783E6 /* Pods-PandaLabTestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProjectUITests/Pods-PandaLabTestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2B7B7E8223A9799008A134C /* PandaLabTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaLabTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B7B7EB223A9799008A134C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2B7B7ED223A9799008A134C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B7B7F0223A9799008A134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2B7B7F2223A979A008A134C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2B7B7F5223A979A008A134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2B7B7F7223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B7B7FC223A979A008A134C /* PandaLabTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaLabTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaLabTestProjectTests.swift; sourceTree = "<group>"; };
+		A2B7B802223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B7B807223A979A008A134C /* PandaLabTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaLabTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaLabTestProjectUITests.swift; sourceTree = "<group>"; };
+		A2B7B80D223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B7B81E223AA071008A134C /* pandalab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pandalab.jpg; sourceTree = "<group>"; };
+		F466972EA1488D57C6CE2C44 /* Pods-PandaLabTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProject.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B7B7E5223A9799008A134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE828B2FBBA13477307E7D6 /* Pods_PandaLabTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B7F9223A979A008A134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6548375B885F5F65C66F223F /* Pods_PandaLabTestProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B804223A979A008A134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EE72C330AD97ECDD516C49 /* Pods_PandaLabTestProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D730756885B1CC57CB2E385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */,
+				F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */,
+				616B3C7ED5A341395B1DDF35 /* Pods_PandaLabTestProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14217BA6806E8CD57DA868A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49CB80846075A99CDA525DFE /* Pods-PandaLabTestProject.debug.xcconfig */,
+				F466972EA1488D57C6CE2C44 /* Pods-PandaLabTestProject.release.xcconfig */,
+				7074499B164431E9DC9576C7 /* Pods-PandaLabTestProjectTests.debug.xcconfig */,
+				0CF18416829EEDD1FE6FDA43 /* Pods-PandaLabTestProjectTests.release.xcconfig */,
+				506D5A7A062A17557B6CD4FC /* Pods-PandaLabTestProjectUITests.debug.xcconfig */,
+				8A92EE9B07A2F4FDD9D783E6 /* Pods-PandaLabTestProjectUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2B7B7DF223A9799008A134C = {
+			isa = PBXGroup;
+			children = (
+				A2B7B7EA223A9799008A134C /* PandaLabTestProject */,
+				A2B7B7FF223A979A008A134C /* PandaLabTestProjectTests */,
+				A2B7B80A223A979A008A134C /* PandaLabTestProjectUITests */,
+				A2B7B7E9223A9799008A134C /* Products */,
+				14217BA6806E8CD57DA868A0 /* Pods */,
+				0D730756885B1CC57CB2E385 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B7B7E9223A9799008A134C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B7E8223A9799008A134C /* PandaLabTestProject.app */,
+				A2B7B7FC223A979A008A134C /* PandaLabTestProjectTests.xctest */,
+				A2B7B807223A979A008A134C /* PandaLabTestProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B7B7EA223A9799008A134C /* PandaLabTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B81C223AA00D008A134C /* assets */,
+				A2B7B7EB223A9799008A134C /* AppDelegate.swift */,
+				A2B7B7ED223A9799008A134C /* ViewController.swift */,
+				A2B7B7EF223A9799008A134C /* Main.storyboard */,
+				A2B7B7F2223A979A008A134C /* Assets.xcassets */,
+				A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */,
+				A2B7B7F7223A979A008A134C /* Info.plist */,
+			);
+			path = PandaLabTestProject;
+			sourceTree = "<group>";
+		};
+		A2B7B7FF223A979A008A134C /* PandaLabTestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */,
+				A2B7B802223A979A008A134C /* Info.plist */,
+			);
+			path = PandaLabTestProjectTests;
+			sourceTree = "<group>";
+		};
+		A2B7B80A223A979A008A134C /* PandaLabTestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */,
+				A2B7B80D223A979A008A134C /* Info.plist */,
+			);
+			path = PandaLabTestProjectUITests;
+			sourceTree = "<group>";
+		};
+		A2B7B81C223AA00D008A134C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B81D223AA02E008A134C /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		A2B7B81D223AA02E008A134C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A2B7B81E223AA071008A134C /* pandalab.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B7B7E7223A9799008A134C /* PandaLabTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B7B810223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProject" */;
+			buildPhases = (
+				6C551173C2228D76D6DB2C24 /* [CP] Check Pods Manifest.lock */,
+				A2B7B7E4223A9799008A134C /* Sources */,
+				A2B7B7E5223A9799008A134C /* Frameworks */,
+				A2B7B7E6223A9799008A134C /* Resources */,
+				717DED57A2DC4F183341FF67 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaLabTestProject;
+			productName = PandaLabTestProject;
+			productReference = A2B7B7E8223A9799008A134C /* PandaLabTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B7B7FB223A979A008A134C /* PandaLabTestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B7B813223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProjectTests" */;
+			buildPhases = (
+				1A143D064838C7E419BBFD5A /* [CP] Check Pods Manifest.lock */,
+				A2B7B7F8223A979A008A134C /* Sources */,
+				A2B7B7F9223A979A008A134C /* Frameworks */,
+				A2B7B7FA223A979A008A134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B7B7FE223A979A008A134C /* PBXTargetDependency */,
+			);
+			name = PandaLabTestProjectTests;
+			productName = PandaLabTestProjectTests;
+			productReference = A2B7B7FC223A979A008A134C /* PandaLabTestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2B7B806223A979A008A134C /* PandaLabTestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B7B816223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProjectUITests" */;
+			buildPhases = (
+				A38C7133A413D2482EF5A9DF /* [CP] Check Pods Manifest.lock */,
+				A2B7B803223A979A008A134C /* Sources */,
+				A2B7B804223A979A008A134C /* Frameworks */,
+				A2B7B805223A979A008A134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B7B809223A979A008A134C /* PBXTargetDependency */,
+			);
+			name = PandaLabTestProjectUITests;
+			productName = PandaLabTestProjectUITests;
+			productReference = A2B7B807223A979A008A134C /* PandaLabTestProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B7B7E0223A9799008A134C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "julian ladjani";
+				TargetAttributes = {
+					A2B7B7E7223A9799008A134C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A2B7B7FB223A979A008A134C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A2B7B7E7223A9799008A134C;
+					};
+					A2B7B806223A979A008A134C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A2B7B7E7223A9799008A134C;
+					};
+				};
+			};
+			buildConfigurationList = A2B7B7E3223A9799008A134C /* Build configuration list for PBXProject "PandaLabTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2B7B7DF223A9799008A134C;
+			productRefGroup = A2B7B7E9223A9799008A134C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B7B7E7223A9799008A134C /* PandaLabTestProject */,
+				A2B7B7FB223A979A008A134C /* PandaLabTestProjectTests */,
+				A2B7B806223A979A008A134C /* PandaLabTestProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B7B7E6223A9799008A134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B7B7F6223A979A008A134C /* LaunchScreen.storyboard in Resources */,
+				A2B7B7F3223A979A008A134C /* Assets.xcassets in Resources */,
+				A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */,
+				A2B7B7F1223A9799008A134C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B7FA223A979A008A134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B805223A979A008A134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A143D064838C7E419BBFD5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaLabTestProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C551173C2228D76D6DB2C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaLabTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717DED57A2DC4F183341FF67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38C7133A413D2482EF5A9DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaLabTestProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B7B7E4223A9799008A134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B7B7EE223A9799008A134C /* ViewController.swift in Sources */,
+				A2B7B7EC223A9799008A134C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B7F8223A979A008A134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B7B801223A979A008A134C /* PandaLabTestProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B7B803223A979A008A134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B7B80C223A979A008A134C /* PandaLabTestProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B7B7FE223A979A008A134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B7B7E7223A9799008A134C /* PandaLabTestProject */;
+			targetProxy = A2B7B7FD223A979A008A134C /* PBXContainerItemProxy */;
+		};
+		A2B7B809223A979A008A134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B7B7E7223A9799008A134C /* PandaLabTestProject */;
+			targetProxy = A2B7B808223A979A008A134C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B7B7EF223A9799008A134C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B7B7F0223A9799008A134C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B7B7F5223A979A008A134C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B7B80E223A979A008A134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2B7B80F223A979A008A134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B7B811223A979A008A134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CB80846075A99CDA525DFE /* Pods-PandaLabTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B7B812223A979A008A134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F466972EA1488D57C6CE2C44 /* Pods-PandaLabTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2B7B814223A979A008A134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7074499B164431E9DC9576C7 /* Pods-PandaLabTestProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaLabTestProject.app/PandaLabTestProject";
+			};
+			name = Debug;
+		};
+		A2B7B815223A979A008A134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF18416829EEDD1FE6FDA43 /* Pods-PandaLabTestProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaLabTestProject.app/PandaLabTestProject";
+			};
+			name = Release;
+		};
+		A2B7B817223A979A008A134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506D5A7A062A17557B6CD4FC /* Pods-PandaLabTestProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PandaLabTestProject;
+			};
+			name = Debug;
+		};
+		A2B7B818223A979A008A134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A92EE9B07A2F4FDD9D783E6 /* Pods-PandaLabTestProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PandaLabTestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = t.PandaLabTestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PandaLabTestProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B7B7E3223A9799008A134C /* Build configuration list for PBXProject "PandaLabTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B7B80E223A979A008A134C /* Debug */,
+				A2B7B80F223A979A008A134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B7B810223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B7B811223A979A008A134C /* Debug */,
+				A2B7B812223A979A008A134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B7B813223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B7B814223A979A008A134C /* Debug */,
+				A2B7B815223A979A008A134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B7B816223A979A008A134C /* Build configuration list for PBXNativeTarget "PandaLabTestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B7B817223A979A008A134C /* Debug */,
+				A2B7B818223A979A008A134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B7B7E0223A9799008A134C /* Project object */;
+}

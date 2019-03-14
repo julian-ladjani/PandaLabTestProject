@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/ReactiveSwift (12.0.1):
+    - Moya/Core
+    - ReactiveSwift (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - ReactiveSwift (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.1.0)
+
+DEPENDENCIES:
+  - Moya/ReactiveSwift (~> 12.0)
+  - ObjectMapper (~> 3.4)
+  - ReactiveSwift (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - ReactiveSwift
+    - Result
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  ReactiveSwift: a2bb9ace428a109e9c0209615645d9d286c8c433
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+
+PODFILE CHECKSUM: f44729dbdfbb0a7bc82086a03a77b93542dc22f6
+
+COCOAPODS: 1.6.1
