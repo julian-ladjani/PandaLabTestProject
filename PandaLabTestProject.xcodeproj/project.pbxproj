@@ -10,13 +10,14 @@
 		6548375B885F5F65C66F223F /* Pods_PandaLabTestProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */; };
 		6EE828B2FBBA13477307E7D6 /* Pods_PandaLabTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */; };
 		A2B7B7EC223A9799008A134C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B7EB223A9799008A134C /* AppDelegate.swift */; };
-		A2B7B7EE223A9799008A134C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B7ED223A9799008A134C /* ViewController.swift */; };
+		A2B7B7EE223A9799008A134C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B7ED223A9799008A134C /* MainViewController.swift */; };
 		A2B7B7F1223A9799008A134C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7EF223A9799008A134C /* Main.storyboard */; };
 		A2B7B7F3223A979A008A134C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7F2223A979A008A134C /* Assets.xcassets */; };
-		A2B7B7F6223A979A008A134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */; };
 		A2B7B801223A979A008A134C /* PandaLabTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */; };
 		A2B7B80C223A979A008A134C /* PandaLabTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */; };
 		A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B81E223AA071008A134C /* pandalab.jpg */; };
+		A2B7B821223AEBFE008A134C /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */; };
+		A2B7B823223AF2EE008A134C /* pandalab_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B822223AF2EE008A134C /* pandalab_rect.png */; };
 		E8EE72C330AD97ECDD516C49 /* Pods_PandaLabTestProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616B3C7ED5A341395B1DDF35 /* Pods_PandaLabTestProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +47,9 @@
 		8A92EE9B07A2F4FDD9D783E6 /* Pods-PandaLabTestProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProjectUITests/Pods-PandaLabTestProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A2B7B7E8223A9799008A134C /* PandaLabTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaLabTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7B7EB223A9799008A134C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2B7B7ED223A9799008A134C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2B7B7ED223A9799008A134C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A2B7B7F0223A9799008A134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2B7B7F2223A979A008A134C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2B7B7F5223A979A008A134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2B7B7F7223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2B7B7FC223A979A008A134C /* PandaLabTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaLabTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaLabTestProjectTests.swift; sourceTree = "<group>"; };
@@ -58,6 +58,8 @@
 		A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaLabTestProjectUITests.swift; sourceTree = "<group>"; };
 		A2B7B80D223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2B7B81E223AA071008A134C /* pandalab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pandalab.jpg; sourceTree = "<group>"; };
+		A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
+		A2B7B822223AF2EE008A134C /* pandalab_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandalab_rect.png; sourceTree = "<group>"; };
 		F466972EA1488D57C6CE2C44 /* Pods-PandaLabTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProject.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject.release.xcconfig"; sourceTree = "<group>"; };
 		F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +143,11 @@
 			children = (
 				A2B7B81C223AA00D008A134C /* assets */,
 				A2B7B7EB223A9799008A134C /* AppDelegate.swift */,
-				A2B7B7ED223A9799008A134C /* ViewController.swift */,
+				A2B7B7ED223A9799008A134C /* MainViewController.swift */,
 				A2B7B7EF223A9799008A134C /* Main.storyboard */,
 				A2B7B7F2223A979A008A134C /* Assets.xcassets */,
-				A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */,
 				A2B7B7F7223A979A008A134C /* Info.plist */,
+				A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */,
 			);
 			path = PandaLabTestProject;
 			sourceTree = "<group>";
@@ -179,6 +181,7 @@
 		A2B7B81D223AA02E008A134C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A2B7B822223AF2EE008A134C /* pandalab_rect.png */,
 				A2B7B81E223AA071008A134C /* pandalab.jpg */,
 			);
 			path = images;
@@ -292,7 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B7B7F6223A979A008A134C /* LaunchScreen.storyboard in Resources */,
+				A2B7B823223AF2EE008A134C /* pandalab_rect.png in Resources */,
 				A2B7B7F3223A979A008A134C /* Assets.xcassets in Resources */,
 				A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */,
 				A2B7B7F1223A9799008A134C /* Main.storyboard in Resources */,
@@ -419,7 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B7B7EE223A9799008A134C /* ViewController.swift in Sources */,
+				A2B7B821223AEBFE008A134C /* LaunchScreenController.swift in Sources */,
+				A2B7B7EE223A9799008A134C /* MainViewController.swift in Sources */,
 				A2B7B7EC223A9799008A134C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,14 +466,6 @@
 				A2B7B7F0223A9799008A134C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2B7B7F4223A979A008A134C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2B7B7F5223A979A008A134C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
