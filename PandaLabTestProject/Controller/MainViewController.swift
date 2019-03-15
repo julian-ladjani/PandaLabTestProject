@@ -27,7 +27,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var teamView: UIView!
 
-    var teams: [TeamModel]?
+    var teams: [TeamModel]!
     var searchButtonObserver: Signal<String, NoError>.Observer?
 
     override func viewDidLoad() {

@@ -39,5 +39,7 @@ class TeamModel: Mappable {
         self.allEmails <- map["allEmails"]
         self.public <- map["public"]
     }
+    
+    public var description: String { return "MyClass: \(String(describing: name))" }
 
 }

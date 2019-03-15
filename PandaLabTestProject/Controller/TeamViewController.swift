@@ -11,24 +11,26 @@ import UIKit
 class TeamViewController: UIViewController {
     
     @IBOutlet weak var teamsTableView: UITableView!
-    var teams: [TeamModel]?
+    var teams: [TeamModel]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        teamsTableView.dataSource = self
+        teamsTableView.delegate = self
+    }
 
-        // Do any additional setup after loading the view.
+}
+
+extension TeamViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")! as UITableViewCell
+        cell.textLabel!.text = teams[indexPath.row].name
         
+        return cell;
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return teams!.count
     }
-    */
-
+    
 }
