@@ -11,6 +11,7 @@ import ReactiveSwift
 import ReactiveCocoa
 import Result
 import Moya
+import ObjectMapper
 import Moya_ObjectMapper
 
 extension String {
@@ -26,8 +27,10 @@ class MainViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var teamView: UIView!
-
+    @IBOutlet weak var errorLabel: UILabel!
+    
     var teams: [TeamModel]!
+    var error: ErrorModel?
     var searchButtonObserver: Signal<String, NoError>.Observer?
 
     override func viewDidLoad() {
@@ -36,6 +39,21 @@ class MainViewController: UIViewController {
         searchButton.layer.borderWidth = 1
         searchButton.layer.borderColor = UIColor.gray.cgColor
         setButtonAction()
+        errorLabel.isHidden = true
+    }
+    
+    func setErrorAction() {
+        if (error == nil) {
+            errorLabel.isHidden = true
+            return;
+        }
+        errorLabel.text = error?.description
+        if (errorLabel.text?.count ?? 0 > 0 && errorLabel.text != "Error") {
+            errorLabel.isHidden = false
+        }
+        else {
+            errorLabel.isHidden = true
+        }
     }
     
     func setButtonAction() {
@@ -65,16 +83,26 @@ class MainViewController: UIViewController {
     func sendRequest(email: String) {
         let provider = MoyaProvider<PandalabApiProviderService>()
         provider.reactive.request(.getUserTeams(email: email))
+            .filterSuccessfulStatusCodes()
             .mapArray(TeamModel.self)
             .start { event in
                 switch event {
                 case .value(let teams):
+                    self.error = nil
                     self.teams = teams
                     self.performSegue(withIdentifier: "mainToTeamView", sender: self)
                 case .failed(let error):
-                    print(error)
+                    do {
+                        if let errorString = try error.response?.mapString() {
+                            self.error = Mapper<ErrorModel>().map(JSONString: errorString)
+                        }
+                        self.setErrorAction()
+                    } catch {
+                        self.error = ErrorModel()
+                    }
                 default: break
                 }
+                self.setErrorAction()
                 self.searchButtonObserver!.sendCompleted()
         }
     }
@@ -82,6 +110,7 @@ class MainViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let teamView = segue.destination as? TeamViewController else {return}
         teamView.teams = self.teams
+        teamView.email = self.emailTextField.text
     }
 
 }

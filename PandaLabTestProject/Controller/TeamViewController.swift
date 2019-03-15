@@ -12,6 +12,7 @@ class TeamViewController: UIViewController {
     
     @IBOutlet weak var teamsTableView: UITableView!
     var teams: [TeamModel]!
+    var email: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
