@@ -10,5 +10,7 @@ Le premier écran devra être composé des éléments suivants:
 - Un bouton pour exécuter la requête (bouton désactivé si une requête est en cours)
 Le second écran devra être composé de l’élément suivant:
 - Une liste des équipes (utiliser le composant UITableView)
+
 Aucune librairie n’est imposée mais l’utilisation de ​ReactiveSwift​ / ​Moya​ / ​ObjectMapper​ est un plus.
+
 Chaque librairie utilisée devra être ajoutée au moyen du gestionnaire de dépendances CocoaPods​.
