@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="PandaLabTestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Julian Ladjani test project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnr-r6-7x5">
+                                <rect key="frame" x="59" y="184" width="195" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="yaA-oT-gGq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pandalab_rect.png" translatesAutoresizingMaskIntoConstraints="NO" id="xUG-XU-pqH">
+                                <rect key="frame" x="39" y="120" width="299" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="lQp-1Q-wCM"/>
+                                    <constraint firstAttribute="width" constant="299" id="p8a-av-O3e"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AqD-Nh-3dP">
+                                <rect key="frame" x="63.5" y="317" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="quK-ZG-I0Z"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8j5-MK-IBa">
+                                <rect key="frame" x="125" y="401" width="125" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="ckG-bF-pMp"/>
+                                </constraints>
+                                <state key="normal" title="Search"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AqD-Nh-3dP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="7U2-nO-TSz"/>
+                            <constraint firstItem="xUG-XU-pqH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="L2T-Ya-gPy"/>
+                            <constraint firstItem="8j5-MK-IBa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RFl-1A-NUC"/>
+                            <constraint firstItem="xUG-XU-pqH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="TPP-6l-p0j"/>
+                            <constraint firstItem="AqD-Nh-3dP" firstAttribute="bottom" secondItem="xUG-XU-pqH" secondAttribute="bottom" constant="142" id="hef-zu-cYf"/>
+                            <constraint firstItem="Rnr-r6-7x5" firstAttribute="bottom" secondItem="xUG-XU-pqH" secondAttribute="bottom" id="pQq-JR-Xoa"/>
+                            <constraint firstItem="8j5-MK-IBa" firstAttribute="bottom" secondItem="AqD-Nh-3dP" secondAttribute="bottom" constant="84" id="vGz-qF-IIp"/>
+                            <constraint firstItem="Rnr-r6-7x5" firstAttribute="leading" secondItem="xUG-XU-pqH" secondAttribute="leading" constant="20" id="wqi-xO-Imt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="AqD-Nh-3dP" id="z9u-N0-glC"/>
+                        <outlet property="searchButton" destination="8j5-MK-IBa" id="reu-pY-TR1"/>
+                        <outlet property="titleLabel" destination="Rnr-r6-7x5" id="37L-eM-NfI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pandalab_rect.png" width="300" height="300"/>
+    </resources>
+</document>

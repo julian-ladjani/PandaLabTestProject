@@ -6,6 +6,7 @@ target 'PandaLabTestProject' do
   use_frameworks!
   # Pods for PandaLabTestProject
   pod 'ReactiveSwift', '~> 4.0'
+  pod 'ReactiveCocoa', '~> 8.0'
   pod 'Moya/ReactiveSwift', '~> 12.0'
   pod 'ObjectMapper', '~> 3.4'
 
