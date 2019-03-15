@@ -39,7 +39,7 @@ class MainViewController: UIViewController {
         let enabledIf = Property(initial: false, then: validator)
         let action = Action<String, Bool, NoError>(enabledIf: enabledIf) { email in
             return SignalProducer<Bool, NoError> { observer, disposable in
-                observer.send(value: true)
+                observer.send(value: (email == "a.a@a"))
                 observer.sendCompleted()
             }
         }
@@ -47,9 +47,11 @@ class MainViewController: UIViewController {
             success in
             if success {
                 print("Successfully sign in.")
+            } else {
+                print("Wrong")
             }
         }
-        searchButton.reactive.pressed = CocoaAction(action, input: emailTextField.text!)
+        searchButton.reactive.pressed = CocoaAction<UIButton>(action){_ in self.emailTextField.text!}
     }
 
 }
