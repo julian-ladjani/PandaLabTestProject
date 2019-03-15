@@ -16,11 +16,11 @@
 		A2B7B801223A979A008A134C /* PandaLabTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B800223A979A008A134C /* PandaLabTestProjectTests.swift */; };
 		A2B7B80C223A979A008A134C /* PandaLabTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */; };
 		A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B81E223AA071008A134C /* pandalab.jpg */; };
-		A2B7B821223AEBFE008A134C /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */; };
 		A2B7B823223AF2EE008A134C /* pandalab_rect.png in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B822223AF2EE008A134C /* pandalab_rect.png */; };
 		A2B7B828223B45DD008A134C /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B827223B45DD008A134C /* TeamModel.swift */; };
 		A2B7B82B223B7BDB008A134C /* PandalabApiProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B82A223B7BDB008A134C /* PandalabApiProviderService.swift */; };
 		A2B7B82D223B8C14008A134C /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B7B82C223B8C14008A134C /* TeamViewController.swift */; };
+		A2B7B830223C09C9008A134C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B7B82E223C09C9008A134C /* LaunchScreen.storyboard */; };
 		E8EE72C330AD97ECDD516C49 /* Pods_PandaLabTestProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616B3C7ED5A341395B1DDF35 /* Pods_PandaLabTestProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,11 +61,11 @@
 		A2B7B80B223A979A008A134C /* PandaLabTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaLabTestProjectUITests.swift; sourceTree = "<group>"; };
 		A2B7B80D223A979A008A134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2B7B81E223AA071008A134C /* pandalab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pandalab.jpg; sourceTree = "<group>"; };
-		A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		A2B7B822223AF2EE008A134C /* pandalab_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandalab_rect.png; sourceTree = "<group>"; };
 		A2B7B827223B45DD008A134C /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		A2B7B82A223B7BDB008A134C /* PandalabApiProviderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandalabApiProviderService.swift; sourceTree = "<group>"; };
 		A2B7B82C223B8C14008A134C /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		A2B7B82F223C09C9008A134C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F466972EA1488D57C6CE2C44 /* Pods-PandaLabTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLabTestProject.release.xcconfig"; path = "Target Support Files/Pods-PandaLabTestProject/Pods-PandaLabTestProject.release.xcconfig"; sourceTree = "<group>"; };
 		F6A8C9DCE3A684109D0DEEF4 /* Pods_PandaLabTestProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2D165445C5F4E5DABA5518 /* Pods_PandaLabTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLabTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,8 +206,8 @@
 		A2B7B825223B2C14008A134C /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				A2B7B82E223C09C9008A134C /* LaunchScreen.storyboard */,
 				A2B7B7EF223A9799008A134C /* Main.storyboard */,
-				A2B7B820223AEBFE008A134C /* LaunchScreenController.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -339,6 +339,7 @@
 				A2B7B823223AF2EE008A134C /* pandalab_rect.png in Resources */,
 				A2B7B7F3223A979A008A134C /* Assets.xcassets in Resources */,
 				A2B7B81F223AA071008A134C /* pandalab.jpg in Resources */,
+				A2B7B830223C09C9008A134C /* LaunchScreen.storyboard in Resources */,
 				A2B7B7F1223A9799008A134C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,7 +470,6 @@
 			files = (
 				A2B7B82B223B7BDB008A134C /* PandalabApiProviderService.swift in Sources */,
 				A2B7B82D223B8C14008A134C /* TeamViewController.swift in Sources */,
-				A2B7B821223AEBFE008A134C /* LaunchScreenController.swift in Sources */,
 				A2B7B7EE223A9799008A134C /* MainViewController.swift in Sources */,
 				A2B7B828223B45DD008A134C /* TeamModel.swift in Sources */,
 				A2B7B7EC223A9799008A134C /* AppDelegate.swift in Sources */,
@@ -514,6 +514,14 @@
 				A2B7B7F0223A9799008A134C /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2B7B82E223C09C9008A134C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B7B82F223C09C9008A134C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
