@@ -11,6 +11,9 @@ import UIKit
 class TeamViewController: UIViewController {
     
     @IBOutlet weak var teamsTableView: UITableView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    
     var teams: [TeamModel]!
     var email: String!
     
@@ -18,6 +21,7 @@ class TeamViewController: UIViewController {
         super.viewDidLoad()
         teamsTableView.dataSource = self
         teamsTableView.delegate = self
+        titleLabel.text = "Teams of \"\(email ?? "unknown mail")\":"
     }
 
 }

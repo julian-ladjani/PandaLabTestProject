@@ -121,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JRx-UG-RIy">
-                                <rect key="frame" x="0.0" y="208" width="375" height="431"/>
+                                <rect key="frame" x="0.0" y="123" width="375" height="431"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="GG0-Hd-Uac" style="IBUITableViewCellStyleDefault" id="HP2-Kd-s6c">
@@ -144,18 +144,27 @@
                                 </prototypes>
                                 <sections/>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teams of &quot;test.mail@pandalab.fr&quot;:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aES-Pc-o2A">
+                                <rect key="frame" x="5" y="86" width="260" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="JRx-UG-RIy" firstAttribute="leading" secondItem="jxI-aZ-FIg" secondAttribute="leading" id="OVf-IT-NIb"/>
-                            <constraint firstItem="JRx-UG-RIy" firstAttribute="centerY" secondItem="jxI-aZ-FIg" secondAttribute="centerY" constant="90" id="nTa-oa-NK8"/>
-                            <constraint firstItem="JRx-UG-RIy" firstAttribute="top" secondItem="0CU-hP-BDd" secondAttribute="top" constant="144" id="w2Q-Yt-UN0"/>
-                            <constraint firstItem="JRx-UG-RIy" firstAttribute="centerX" secondItem="jxI-aZ-FIg" secondAttribute="centerX" id="z9C-9U-ivq"/>
+                            <constraint firstItem="JRx-UG-RIy" firstAttribute="leading" secondItem="aES-Pc-o2A" secondAttribute="leading" constant="-5" id="EqR-5W-BTh"/>
+                            <constraint firstItem="0CU-hP-BDd" firstAttribute="bottom" secondItem="JRx-UG-RIy" secondAttribute="bottom" constant="113" id="IcN-o2-QjD"/>
+                            <constraint firstItem="aES-Pc-o2A" firstAttribute="top" secondItem="0CU-hP-BDd" secondAttribute="top" constant="22" id="rwk-Gt-gFU"/>
+                            <constraint firstItem="JRx-UG-RIy" firstAttribute="leading" secondItem="jxI-aZ-FIg" secondAttribute="leading" id="xqC-6k-jaK"/>
+                            <constraint firstItem="JRx-UG-RIy" firstAttribute="top" secondItem="aES-Pc-o2A" secondAttribute="bottom" constant="16" id="zCV-Hi-BeP"/>
+                            <constraint firstItem="JRx-UG-RIy" firstAttribute="centerX" secondItem="jxI-aZ-FIg" secondAttribute="centerX" id="zZY-hh-hYE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0CU-hP-BDd"/>
                     </view>
                     <connections>
                         <outlet property="teamsTableView" destination="JRx-UG-RIy" id="VsI-Df-Hsf"/>
+                        <outlet property="titleLabel" destination="aES-Pc-o2A" id="hYR-ua-J7h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcm-sg-vB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
