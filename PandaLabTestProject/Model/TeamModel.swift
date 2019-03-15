@@ -17,7 +17,7 @@ class TeamModel: Mappable {
     var host: String?
     var api: String?
     var cdn: String?
-    var vs: String?
+    var ws: String?
     var login: String?
     var email: String?
     var allEmails: [String]?
@@ -33,7 +33,7 @@ class TeamModel: Mappable {
         self.host <- map["host"]
         self.api <- map["api"]
         self.cdn <- map["cdn"]
-        self.vs <- map["vs"]
+        self.ws <- map["ws"]
         self.login <- map["login"]
         self.email <- map["email"]
         self.allEmails <- map["allEmails"]
